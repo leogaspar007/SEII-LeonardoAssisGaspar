@@ -1,0 +1,12 @@
+2-
+a)	Primeira etapa, Pré Processamento: Nesta etapa, o gcc expande os macros, adiciona bibliotecas que estão incluidas aravés de "#include" dentro do código e ainda remove comentários feitos no arquivo, para que o compilador leia apenas o que lhe importa.
+	Segunda etapa, Compilação (de fato): Esta é a parte do processo responsável por interpretar o código resultante do pré processamento e gerar a partir dele uma linguagem intermediária, capaz de ser lida por humanos e destinada ao processador em questão.
+	Terceira etapa, Assembly: Na etapa de assembly, o gcc transforma o código compilado em código binário, de modo que a máquina consiga compreender. Este código resultante é também conhecido como código objeto.
+	Quarta etapa, linkagem: Nesta quarta e última etapa o compilador une todos os códigos objeto resultante da etapa anterior em um único módulo. Caso seja usada alguma função que venha de alguma biblioteca externa (incluida anteriormente na primeira etapa), o linker irá linkar o seu código com o código desta função.
+
+b) i)	Linka o programa de forma stática, não depende de bibliotecas dinâmicas.
+  ii)	Inclui informações padrões de debugging nos binários.
+ iii)	Mostra todos os avisos requeridos pelo padrão ANSI/ISO C.
+  iv)	Mostra todos o avisos úteis que o gcc pode oferecer.
+   v)	Não encontrado.
+  vi)	Não encontrado.
