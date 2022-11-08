@@ -1,0 +1,5 @@
+1) No protocolo TCP, seu cabeçalho possui 12 campos e pode variar de 20 a 80 bytes, enquanto que no protocolo UDP seu cabeçalho possui 4 campo e possui tamanho fixo de 8 bytes.
+
+2) Essa transmissão é feita através do protocolo TCP, que lida com recebimento e envio de pacotes. 
+
+3) A transmissão através do protocolo UDP é mais rápida, porém menos confiável, de modo que pode ocorrer perda de pacotes na transmissão. De forma contrária, o protocolo TCP garante a qualidade e integridade dos dados enviados e recebidos.
